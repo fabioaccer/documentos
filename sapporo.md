@@ -6,7 +6,7 @@
 
 ## 📑 Índice
 
-1. [🚪 Acesso ao Painel](#-acesso-ao-painel-acesso-ao-painel)
+1. [🚪 Acesso ao Painel](#-acesso-ao-painel)
 2. [🏠 Dashboard](#-dashboard-dashboard)
 3. [📄 Gerenciamento de Páginas](#-gerenciamento-de-páginas-gerenciamento-de-paginas)
    - [3.1. Página Home](#31-página-home-31-pagina-home)
