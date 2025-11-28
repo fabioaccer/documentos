@@ -7,27 +7,27 @@
 ## 📑 Índice
 
 1. [🚪 Acesso ao Painel](#acesso-ao-painel)
-2. [🏠 Dashboard - Visão Geral](#dashboard)
+2. [🏠 Dashboard](#dashboard)
 3. [📄 Gerenciamento de Páginas](#gerenciamento-de-paginas)
-   - [3.1. Página Home](#pagina-home)
-   - [3.2. Página Quem Somos](#pagina-quem-somos)
-   - [3.3. Página Quero Comprar](#pagina-quero-comprar)
-   - [3.4. Header (Cabeçalho)](#header-cabecalho)
-   - [3.5. Footer (Rodapé)](#footer-rodape)
-   - [3.6. Página de Contato](#pagina-de-contato)
+   - [3.1. Página Home](#31-pagina-home)
+   - [3.2. Página Quem Somos](#32-pagina-quem-somos)
+   - [3.3. Página Quero Comprar](#33-pagina-quero-comprar)
+   - [3.4. Header (Cabeçalho)](#34-header-cabecalho)
+   - [3.5. Footer (Rodapé)](#35-footer-rodape)
+   - [3.6. Página de Contato](#36-pagina-de-contato)
 4. [📁 Páginas de Categorias](#paginas-de-categorias)
 5. [🛍️ Páginas de Produtos](#paginas-de-produtos)
 6. [⚙️ Administração](#administracao)
-   - [6.1. Gerenciar Produtos](#gerenciar-produtos)
-   - [6.2. Gerenciar Categorias](#gerenciar-categorias)
-   - [6.3. Gerenciar Lojas](#gerenciar-lojas)
-   - [6.4. Gerenciar Usuários](#gerenciar-usuarios)
+   - [6.1. Gerenciar Produtos](#61-gerenciar-produtos)
+   - [6.2. Gerenciar Categorias](#62-gerenciar-categorias)
+   - [6.3. Gerenciar Lojas](#63-gerenciar-lojas)
+   - [6.4. Gerenciar Usuários](#64-gerenciar-usuarios)
 7. [💡 Dicas e Boas Práticas](#dicas-e-boas-praticas)
 8. [❓ Perguntas Frequentes](#perguntas-frequentes)
 
 ---
 
-## 🚪 Acesso ao Painel
+## 🚪 Acesso ao Painel {#acesso-ao-painel}
 
 ### Como fazer login
 
@@ -48,7 +48,7 @@ Clique no botão **"Sair"** no rodapé do menu lateral (ícone vermelho).
 
 ---
 
-## 🏠 Dashboard
+## 🏠 Dashboard {#dashboard}
 
 O Dashboard é a primeira tela que você vê ao entrar no admin. Ele mostra:
 
@@ -67,7 +67,7 @@ Clique em qualquer página listada para editá-la diretamente.
 
 ---
 
-## 📄 Gerenciamento de Páginas
+## 📄 Gerenciamento de Páginas {#gerenciamento-de-paginas}
 
 ### Como funciona o sistema de publicação
 
@@ -84,7 +84,7 @@ Clique em qualquer página listada para editá-la diretamente.
 
 ---
 
-### 3.1. Página Home
+### 3.1. Página Home {#31-pagina-home}
 
 A página Home é a primeira página que os visitantes veem. Ela possui várias seções que podem ser editadas:
 
@@ -169,7 +169,7 @@ Seção de vídeo (YouTube ou Vimeo).
 
 ---
 
-### 3.2. Página Quem Somos
+### 3.2. Página Quem Somos {#32-pagina-quem-somos}
 
 Página institucional sobre a empresa.
 
@@ -237,7 +237,7 @@ Feed do Instagram.
 
 ---
 
-### 3.3. Página Quero Comprar
+### 3.3. Página Quero Comprar {#33-pagina-quero-comprar}
 
 Página com mapa interativo para encontrar lojas.
 
@@ -287,7 +287,7 @@ Seção de vídeo após o mapa.
 
 ---
 
-### 3.4. Header (Cabeçalho)
+### 3.4. Header (Cabeçalho) {#34-header-cabecalho}
 
 Menu de navegação no topo do site.
 
@@ -312,7 +312,7 @@ Menu de navegação no topo do site.
 
 ---
 
-### 3.5. Footer (Rodapé)
+### 3.5. Footer (Rodapé) {#35-footer-rodape}
 
 Menu no rodapé do site.
 
@@ -330,7 +330,7 @@ Funciona exatamente igual ao Header (veja seção anterior).
 
 ---
 
-### 3.6. Página de Contato
+### 3.6. Página de Contato {#36-pagina-de-contato}
 
 Página com formulário de contato e informações.
 
@@ -362,14 +362,33 @@ Mapa do Google Maps com a localização.
 
 ---
 
-## 📁 Páginas de Categorias
+## 📁 Páginas de Categorias {#paginas-de-categorias}
 
-Cada categoria de produto tem sua própria página personalizável.
+Cada categoria de produto pode ter sua própria página personalizável, mas ela precisa ser **gerada primeiro**.
 
-### Como acessar
+### ⚠️ IMPORTANTE: Gerar a página antes de editar
+
+**As páginas de categorias NÃO são criadas automaticamente!** Você precisa gerá-las manualmente antes de poder editá-las.
+
+**Passo a passo para gerar e editar:**
+
+1. **Primeiro, gere a página:**
+   - Vá em **"Administração > Categorias"** no menu lateral
+   - Na lista de categorias, encontre a categoria desejada
+   - Clique no **menu de três pontos (⋮)** na linha da categoria
+   - Se aparecer **"Página não gerada"**, clique em **"Gerar página"**
+   - Aguarde alguns segundos
+
+2. **Depois, edite a página:**
+   - Vá em **"Páginas de Categorias"** no menu lateral
+   - Selecione a categoria que você acabou de gerar na lista
+   - Agora você pode editar todas as seções
+
+### Como acessar para editar
 
 1. No menu lateral, clique em **"Páginas de Categorias"**
 2. Selecione a categoria que deseja editar na lista
+   - ⚠️ **Atenção:** Só aparecerão categorias que já tiveram suas páginas geradas!
 
 ### Como editar
 
@@ -404,14 +423,33 @@ Lista de produtos da categoria.
 
 ---
 
-## 🛍️ Páginas de Produtos
+## 🛍️ Páginas de Produtos {#paginas-de-produtos}
 
-Cada produto tem sua própria página personalizável.
+Cada produto pode ter sua própria página personalizável, mas ela precisa ser **gerada primeiro**.
 
-### Como acessar
+### ⚠️ IMPORTANTE: Gerar a página antes de editar
+
+**As páginas de produtos NÃO são criadas automaticamente!** Você precisa gerá-las manualmente antes de poder editá-las.
+
+**Passo a passo para gerar e editar:**
+
+1. **Primeiro, gere a página:**
+   - Vá em **"Administração > Produtos"** no menu lateral
+   - Na lista de produtos, encontre o produto desejado
+   - Clique no **menu de três pontos (⋮)** na linha do produto
+   - Se aparecer **"Página não gerada"**, clique em **"Gerar página"**
+   - Aguarde alguns segundos
+
+2. **Depois, edite a página:**
+   - Vá em **"Páginas de Produtos"** no menu lateral
+   - Selecione o produto que você acabou de gerar na lista
+   - Agora você pode editar todas as seções
+
+### Como acessar para editar
 
 1. No menu lateral, clique em **"Páginas de Produtos"**
 2. Selecione o produto que deseja editar na lista
+   - ⚠️ **Atenção:** Só aparecerão produtos que já tiveram suas páginas geradas!
 
 ### Como editar
 
@@ -460,13 +498,13 @@ Cada página de produto possui as seguintes seções:
 
 ---
 
-## ⚙️ Administração
+## ⚙️ Administração {#administracao}
 
 > ⚠️ **Atenção:** Apenas usuários com perfil de **Administrador** têm acesso a estas seções.
 
 ---
 
-### 6.1. Gerenciar Produtos
+### 6.1. Gerenciar Produtos {#61-gerenciar-produtos}
 
 Cadastre e gerencie todos os produtos do site.
 
@@ -490,12 +528,32 @@ Cadastre e gerencie todos os produtos do site.
 3. Altere os campos desejados
 4. Clique em **"Salvar"**
 
-#### 📄 Como criar/editar a página do produto
+#### 📄 Como gerar e editar a página do produto
 
-1. Na lista de produtos, clique no menu de três pontos (⋮)
-2. Selecione **"Editar Página"**
-3. Você será redirecionado para o editor de página do produto
-4. Siga as instruções da seção ["Páginas de Produtos"](#paginas-de-produtos)
+> ⚠️ **IMPORTANTE:** As páginas de produtos **NÃO são criadas automaticamente**. Você precisa gerá-las manualmente antes de poder editá-las!
+
+**Como gerar a página:**
+1. Na lista de produtos, localize o produto desejado
+2. Clique no **menu de três pontos (⋮)** na linha do produto (última coluna da tabela)
+3. No menu que aparece no topo, você verá:
+   - **Indicador de status com um ponto colorido:**
+     - 🟢 **Ponto verde + "Página criada"** = A página já existe e pode ser editada
+     - ⚪ **Ponto cinza + "Página não gerada"** = A página ainda não foi criada
+4. Se aparecer **"Página não gerada"**, clique no botão **"Gerar página"**
+5. Aguarde alguns segundos enquanto a página é criada (aparecerá "Processando...")
+6. Após gerar, o status mudará para **"Página criada"** e você poderá editá-la
+
+**Como editar a página gerada:**
+1. Após gerar a página, você pode editá-la:
+   - Vá em **"Páginas de Produtos"** no menu lateral (seção "Conteúdo")
+   - Selecione o produto que você acabou de gerar na lista
+   - Agora você pode editar todas as seções da página
+2. Siga as instruções da seção "Páginas de Produtos" abaixo
+
+**Como excluir a página:**
+- No menu de três pontos (⋮), selecione **"Excluir página"**
+- Isso remove apenas a página, não o produto em si
+- Você pode gerar a página novamente depois se quiser
 
 #### 🔄 Como reordenar produtos
 
@@ -518,7 +576,7 @@ Cadastre e gerencie todos os produtos do site.
 
 ---
 
-### 6.2. Gerenciar Categorias
+### 6.2. Gerenciar Categorias {#62-gerenciar-categorias}
 
 Cadastre e gerencie as categorias de produtos.
 
@@ -539,12 +597,32 @@ Cadastre e gerencie as categorias de produtos.
 3. Altere os campos desejados
 4. Clique em **"Salvar"**
 
-#### 📄 Como criar/editar a página da categoria
+#### 📄 Como gerar e editar a página da categoria
 
-1. Na lista de categorias, clique no menu de três pontos (⋮)
-2. Selecione **"Editar Página"**
-3. Você será redirecionado para o editor de página da categoria
-4. Siga as instruções da seção ["Páginas de Categorias"](#paginas-de-categorias)
+> ⚠️ **IMPORTANTE:** As páginas de categorias **NÃO são criadas automaticamente**. Você precisa gerá-las manualmente antes de poder editá-las!
+
+**Como gerar a página:**
+1. Na lista de categorias, localize a categoria desejada
+2. Clique no **menu de três pontos (⋮)** na linha da categoria (última coluna da tabela)
+3. No menu que aparece no topo, você verá:
+   - **Indicador de status com um ponto colorido:**
+     - 🟢 **Ponto verde + "Página criada"** = A página já existe e pode ser editada
+     - ⚪ **Ponto cinza + "Página não gerada"** = A página ainda não foi criada
+4. Se aparecer **"Página não gerada"**, clique no botão **"Gerar página"**
+5. Aguarde alguns segundos enquanto a página é criada (aparecerá "Processando...")
+6. Após gerar, o status mudará para **"Página criada"** e você poderá editá-la
+
+**Como editar a página gerada:**
+1. Após gerar a página, você pode editá-la:
+   - Vá em **"Páginas de Categorias"** no menu lateral (seção "Conteúdo")
+   - Selecione a categoria que você acabou de gerar na lista
+   - Agora você pode editar todas as seções da página
+2. Siga as instruções da seção "Páginas de Categorias" abaixo
+
+**Como excluir a página:**
+- No menu de três pontos (⋮), selecione **"Excluir página"**
+- Isso remove apenas a página, não a categoria em si
+- Você pode gerar a página novamente depois se quiser
 
 #### 🔄 Como reordenar categorias
 
@@ -567,7 +645,7 @@ Cadastre e gerencie as categorias de produtos.
 
 ---
 
-### 6.3. Gerenciar Lojas
+### 6.3. Gerenciar Lojas {#63-gerenciar-lojas}
 
 Cadastre e gerencie os pontos de venda que aparecem no mapa.
 
@@ -620,7 +698,7 @@ Cadastre e gerencie os pontos de venda que aparecem no mapa.
 
 ---
 
-### 6.4. Gerenciar Usuários
+### 6.4. Gerenciar Usuários {#64-gerenciar-usuarios}
 
 Gerencie quem tem acesso ao painel administrativo.
 
@@ -658,7 +736,7 @@ Gerencie quem tem acesso ao painel administrativo.
 
 ---
 
-## 💡 Dicas e Boas Práticas
+## 💡 Dicas e Boas Práticas {#dicas-e-boas-praticas}
 
 ### 📸 Sobre imagens
 
@@ -696,7 +774,7 @@ Gerencie quem tem acesso ao painel administrativo.
 
 ---
 
-## ❓ Perguntas Frequentes
+## ❓ Perguntas Frequentes {#perguntas-frequentes}
 
 ### Como faço para voltar ao site público?
 
@@ -785,6 +863,24 @@ Algumas funcionalidades são exclusivas para **Administradores**. Se você é **
 
 Rascunho é uma versão de trabalho que não está visível no site público. Você pode fazer quantas alterações quiser e salvar como rascunho. Só quando clicar em **"Publicar"** é que as mudanças aparecerão no site.
 
+### Por que não consigo ver um produto/categoria em "Páginas de Produtos" ou "Páginas de Categorias"?
+
+Isso acontece porque a página ainda não foi gerada! As páginas de produtos e categorias **não são criadas automaticamente**.
+
+**Para resolver:**
+1. Vá em **"Administração > Produtos"** (ou **"Categorias"**)
+2. Encontre o item na lista
+3. Clique no **menu de três pontos (⋮)**
+4. Verifique o status:
+   - Se aparecer **"Página não gerada"**, clique em **"Gerar página"**
+   - Se aparecer **"Página criada"**, a página já existe e você pode editá-la em "Páginas de Produtos" ou "Páginas de Categorias"
+
+### Como sei se uma página de produto/categoria foi gerada?
+
+No menu de três pontos (⋮) na lista de produtos ou categorias, você verá:
+- 🟢 **"Página criada"** = A página existe e pode ser editada
+- ⚪ **"Página não gerada"** = A página ainda não existe, precisa gerar primeiro
+
 ---
 
 ## 📞 Suporte
@@ -795,5 +891,4 @@ Se você tiver dúvidas ou problemas que não foram resolvidos neste guia, entre
 
 **Última atualização:** Dezembro 2024
 
-**Versão do guia:** 1.0
-
+**Versão do guia:** 2.0
