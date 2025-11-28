@@ -6,28 +6,28 @@
 
 ## 📑 Índice
 
-1. [🚪 Acesso ao Painel](#acesso-ao-painel)
-2. [🏠 Dashboard](#dashboard)
-3. [📄 Gerenciamento de Páginas](#gerenciamento-de-paginas)
-   - [3.1. Página Home](#31-pagina-home)
-   - [3.2. Página Quem Somos](#32-pagina-quem-somos)
-   - [3.3. Página Quero Comprar](#33-pagina-quero-comprar)
-   - [3.4. Header (Cabeçalho)](#34-header-cabecalho)
-   - [3.5. Footer (Rodapé)](#35-footer-rodape)
-   - [3.6. Página de Contato](#36-pagina-de-contato)
-4. [📁 Páginas de Categorias](#paginas-de-categorias)
-5. [🛍️ Páginas de Produtos](#paginas-de-produtos)
-6. [⚙️ Administração](#administracao)
-   - [6.1. Gerenciar Produtos](#61-gerenciar-produtos)
-   - [6.2. Gerenciar Categorias](#62-gerenciar-categorias)
-   - [6.3. Gerenciar Lojas](#63-gerenciar-lojas)
-   - [6.4. Gerenciar Usuários](#64-gerenciar-usuarios)
-7. [💡 Dicas e Boas Práticas](#dicas-e-boas-praticas)
-8. [❓ Perguntas Frequentes](#perguntas-frequentes)
+1. [🚪 Acesso ao Painel](#-acesso-ao-painel-acesso-ao-painel)
+2. [🏠 Dashboard](#-dashboard-dashboard)
+3. [📄 Gerenciamento de Páginas](#-gerenciamento-de-páginas-gerenciamento-de-paginas)
+   - [3.1. Página Home](#31-página-home-31-pagina-home)
+   - [3.2. Página Quem Somos](#32-página-quem-somos-32-pagina-quem-somos)
+   - [3.3. Página Quero Comprar](#33-página-quero-comprar-33-pagina-quero-comprar)
+   - [3.4. Header (Cabeçalho)](#34-header-cabeçalho-34-header-cabecalho)
+   - [3.5. Footer (Rodapé)](#35-footer-rodapé-35-footer-rodape)
+   - [3.6. Página de Contato](#36-página-de-contato-36-pagina-de-contato)
+4. [📁 Páginas de Categorias](#-páginas-de-categorias-paginas-de-categorias)
+5. [🛍️ Páginas de Produtos](#-páginas-de-produtos-paginas-de-produtos)
+6. [⚙️ Administração](#-administração-administracao)
+   - [6.1. Gerenciar Produtos](#61-gerenciar-produtos-61-gerenciar-produtos)
+   - [6.2. Gerenciar Categorias](#62-gerenciar-categorias-62-gerenciar-categorias)
+   - [6.3. Gerenciar Lojas](#63-gerenciar-lojas-63-gerenciar-lojas)
+   - [6.4. Gerenciar Usuários](#64-gerenciar-usuários-64-gerenciar-usuarios)
+7. [💡 Dicas e Boas Práticas](#-dicas-e-boas-práticas-dicas-e-boas-praticas)
+8. [❓ Perguntas Frequentes](#-perguntas-frequentes-perguntas-frequentes)
 
 ---
 
-## 🚪 Acesso ao Painel {#acesso-ao-painel}
+## 🚪 Acesso ao Painel
 
 ### Como fazer login
 
@@ -48,7 +48,7 @@ Clique no botão **"Sair"** no rodapé do menu lateral (ícone vermelho).
 
 ---
 
-## 🏠 Dashboard {#dashboard}
+## 🏠 Dashboard
 
 O Dashboard é a primeira tela que você vê ao entrar no admin. Ele mostra:
 
@@ -67,7 +67,7 @@ Clique em qualquer página listada para editá-la diretamente.
 
 ---
 
-## 📄 Gerenciamento de Páginas {#gerenciamento-de-paginas}
+## 📄 Gerenciamento de Páginas
 
 ### Como funciona o sistema de publicação
 
@@ -84,7 +84,7 @@ Clique em qualquer página listada para editá-la diretamente.
 
 ---
 
-### 3.1. Página Home {#31-pagina-home}
+### 3.1. Página Home
 
 A página Home é a primeira página que os visitantes veem. Ela possui várias seções que podem ser editadas:
 
@@ -169,7 +169,7 @@ Seção de vídeo (YouTube ou Vimeo).
 
 ---
 
-### 3.2. Página Quem Somos {#32-pagina-quem-somos}
+### 3.2. Página Quem Somos
 
 Página institucional sobre a empresa.
 
@@ -237,7 +237,7 @@ Feed do Instagram.
 
 ---
 
-### 3.3. Página Quero Comprar {#33-pagina-quero-comprar}
+### 3.3. Página Quero Comprar
 
 Página com mapa interativo para encontrar lojas.
 
@@ -287,7 +287,7 @@ Seção de vídeo após o mapa.
 
 ---
 
-### 3.4. Header (Cabeçalho) {#34-header-cabecalho}
+### 3.4. Header (Cabeçalho)
 
 Menu de navegação no topo do site.
 
@@ -312,7 +312,7 @@ Menu de navegação no topo do site.
 
 ---
 
-### 3.5. Footer (Rodapé) {#35-footer-rodape}
+### 3.5. Footer (Rodapé)
 
 Menu no rodapé do site.
 
@@ -330,7 +330,7 @@ Funciona exatamente igual ao Header (veja seção anterior).
 
 ---
 
-### 3.6. Página de Contato {#36-pagina-de-contato}
+### 3.6. Página de Contato
 
 Página com formulário de contato e informações.
 
@@ -362,7 +362,7 @@ Mapa do Google Maps com a localização.
 
 ---
 
-## 📁 Páginas de Categorias {#paginas-de-categorias}
+## 📁 Páginas de Categorias
 
 Cada categoria de produto pode ter sua própria página personalizável, mas ela precisa ser **gerada primeiro**.
 
@@ -423,7 +423,7 @@ Lista de produtos da categoria.
 
 ---
 
-## 🛍️ Páginas de Produtos {#paginas-de-produtos}
+## 🛍️ Páginas de Produtos
 
 Cada produto pode ter sua própria página personalizável, mas ela precisa ser **gerada primeiro**.
 
@@ -498,13 +498,13 @@ Cada página de produto possui as seguintes seções:
 
 ---
 
-## ⚙️ Administração {#administracao}
+## ⚙️ Administração
 
 > ⚠️ **Atenção:** Apenas usuários com perfil de **Administrador** têm acesso a estas seções.
 
 ---
 
-### 6.1. Gerenciar Produtos {#61-gerenciar-produtos}
+### 6.1. Gerenciar Produtos
 
 Cadastre e gerencie todos os produtos do site.
 
@@ -576,7 +576,7 @@ Cadastre e gerencie todos os produtos do site.
 
 ---
 
-### 6.2. Gerenciar Categorias {#62-gerenciar-categorias}
+### 6.2. Gerenciar Categorias
 
 Cadastre e gerencie as categorias de produtos.
 
@@ -645,7 +645,7 @@ Cadastre e gerencie as categorias de produtos.
 
 ---
 
-### 6.3. Gerenciar Lojas {#63-gerenciar-lojas}
+### 6.3. Gerenciar Lojas
 
 Cadastre e gerencie os pontos de venda que aparecem no mapa.
 
@@ -698,7 +698,7 @@ Cadastre e gerencie os pontos de venda que aparecem no mapa.
 
 ---
 
-### 6.4. Gerenciar Usuários {#64-gerenciar-usuarios}
+### 6.4. Gerenciar Usuários
 
 Gerencie quem tem acesso ao painel administrativo.
 
@@ -736,7 +736,7 @@ Gerencie quem tem acesso ao painel administrativo.
 
 ---
 
-## 💡 Dicas e Boas Práticas {#dicas-e-boas-praticas}
+## 💡 Dicas e Boas Práticas
 
 ### 📸 Sobre imagens
 
@@ -774,7 +774,7 @@ Gerencie quem tem acesso ao painel administrativo.
 
 ---
 
-## ❓ Perguntas Frequentes {#perguntas-frequentes}
+## ❓ Perguntas Frequentes
 
 ### Como faço para voltar ao site público?
 
@@ -891,4 +891,4 @@ Se você tiver dúvidas ou problemas que não foram resolvidos neste guia, entre
 
 **Última atualização:** Dezembro 2024
 
-**Versão do guia:** 2.0
+**Versão do guia:** 3.0
